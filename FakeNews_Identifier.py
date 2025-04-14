@@ -135,6 +135,8 @@ if file_upload is not None:
     plt.ylabel("Dimension 2")
     plt.legend(title="News Type", bbox_to_anchor=(1.05, 1), loc='upper left')
     st.pyplot(fig)
+else:
+    st.write("Waiting File Upload")
     
     
     st.markdown("<h3 style='color:#3498db;'> Author: Solomon Mengesha Kebede</h3>", unsafe_allow_html=True)
