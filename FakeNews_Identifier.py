@@ -139,17 +139,17 @@ else:
     st.write("Waiting File Upload")
     
     
-    st.markdown("<h3 style='color:#3498db;'> Author: Solomon Mengesha Kebede</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='color:#3498db;'> Author: Solomon Mengesha Kebede</h3>", unsafe_allow_html=True)
     
-    st.markdown("<h3 style='color:#e67e22;'>Additional Note</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='color:#e67e22;'>Additional Note</h3>", unsafe_allow_html=True)
     
-    st.markdown("* TF (Term Frequency): The number of times a word appears in a document is its Term Frequency<sup>*</sup>.", unsafe_allow_html=True)
-    st.markdown("A higher value means a term appears more often than others, and so, the document is a good match when the term is part of the search terms.")
-    st.markdown("IDF (Inverse Document Frequency): Words that occur many times a document, but also occur many times in many others, may be irrelevant.")
-    st.markdown("IDF is a measure of how significant a term is in the entire corpus.")
-    st.markdown("The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.")
-    st.markdown("new feature axes created by PCA.")
-    st.markdown("Principal Component 1 (PC1) is the direction with the most variance in your dataset — it captures the largest difference between your samples.")
-    st.markdown("Principal Component 2 (PC2) is the direction orthogonal (perpendicular) to PC1, with the second most variance.")
+st.markdown("* TF (Term Frequency): The number of times a word appears in a document is its Term Frequency<sup>*</sup>.", unsafe_allow_html=True)
+st.markdown("A higher value means a term appears more often than others, and so, the document is a good match when the term is part of the search terms.")
+st.markdown("IDF (Inverse Document Frequency): Words that occur many times a document, but also occur many times in many others, may be irrelevant.")
+st.markdown("IDF is a measure of how significant a term is in the entire corpus.")
+st.markdown("The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.")
+st.markdown("new feature axes created by PCA.")
+st.markdown("Principal Component 1 (PC1) is the direction with the most variance in your dataset — it captures the largest difference between your samples.")
+st.markdown("Principal Component 2 (PC2) is the direction orthogonal (perpendicular) to PC1, with the second most variance.")
     
                 
